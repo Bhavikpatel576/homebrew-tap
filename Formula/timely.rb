@@ -7,10 +7,9 @@ class Timely < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Bhavikpatel576/timely/releases/download/v#{version}/timely-v#{version}-arm64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_ARM64_SHA256"
     else
       url "https://github.com/Bhavikpatel576/timely/releases/download/v#{version}/timely-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_X86_64_SHA256"
+      sha256 "08cc524ec227f12c421ecfdef6dc12c5bc98cad370d213f6db614e3469c60a6e"
     end
   end
 
