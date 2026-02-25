@@ -1,16 +1,16 @@
 class Timely < Formula
   desc "A lightweight, agent-friendly activity tracker for macOS"
   homepage "https://github.com/Bhavikpatel576/timely"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Bhavikpatel576/timely/releases/download/v#{version}/timely-v#{version}-arm64-apple-darwin-bin.tar.gz"
-      sha256 "3a9f986ae16a4e0a7c448ad205c69c3a59162bd2efdc8e896d731c9183230bef"
+      sha256 "5a9718cb2aac791d8f1f9d9129288c0df9dfeac4f92006338ffc0e65e82b34cc"
     else
       url "https://github.com/Bhavikpatel576/timely/releases/download/v#{version}/timely-v#{version}-x86_64-apple-darwin-bin.tar.gz"
-      sha256 "6cc59d59f652f0789540f9dfa32a3e1f4eac8670e80f666b7fbeb3b6a470b52b"
+      sha256 "ca63bf430d8861c9cfa50a2700952e5359c521f370e1ae571a8d9d76a92c3a26"
     end
   end
 
